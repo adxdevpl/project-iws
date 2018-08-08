@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'Roboto-thin';
+  src: url(../font/Roboto-Thin.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Roboto-light';
+  src: url(../font/Roboto-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Roboto-regular';
+  src: url(../font/Roboto-Regular.ttf) format("truetype");
+}
+
+html {
+  background: dodgerblue;
+}
+
+body {
+  background: #EA2639;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  padding: 0;
+  margin: 0;
+  margin-left: 160px;
+}
+
+body .test1 {
+  font-weight: 600;
+  font-size: 4em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.sidebar {
+  background: #222528;
+  min-height: 100vh;
+  width: 160px;
+  position: fixed;
+  left: 0;
+  z-index: 1;
+  text-align: center;
+  font-size: 20px;
+  color: #c6c6c6;
+}
+
+.sidebar .link {
+  padding-top: 2%;
+}
+
+.sidebar .link a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #ffffff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.sidebar .link a {
+  text-decoration: none;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.sidebar .link a:hover:after {
+  width: 100%;
+}
+
+.sidebar .link:hover {
+  -webkit-transition: color 300ms ease-in;
+  transition: color 300ms ease-in;
+  color: #ffffff;
+}
+
+.sidebar .sidebar-logo {
+  padding-top: 15px;
+  padding-left: 15px;
+  max-width: 115%;
+}
+
+#home {
+  min-height: 80vh;
+  font-family: 'Roboto-thin', sans-serif;
+  font-size: 45px;
+}
+
+#home .front-logo {
+  padding-top: 20vh;
+}
+/*# sourceMappingURL=main.1.css.map */
