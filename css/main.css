@@ -1,26 +1,32 @@
 @font-face {
-  font-family: 'Roboto-thin';
-  src: url(../font/Roboto-Thin.ttf) format("truetype");
+  font-family: 'Oswald-thin';
+  src: url(../font/Oswald-ExtraLight.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: 'Roboto-light';
-  src: url(../font/Roboto-Light.ttf) format("truetype");
+  font-family: 'Oswald-light';
+  src: url(../font/Oswald-Light.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: 'Roboto-regular';
-  src: url(../font/Roboto-Regular.ttf) format("truetype");
+  font-family: 'Oswald-regular';
+  src: url(../font/Oswald-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Oswald-medium';
+  src: url(../font/Oswald-Medium.ttf) format("truetype");
 }
 
 html {
-  background: dodgerblue;
+  background: #ffffff;
+  padding: 0;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
 }
 
 body {
-  background: #EA2639;
-  color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  color: #222528;
   font-weight: 300;
   font-size: 2em;
   padding: 0;
@@ -28,13 +34,12 @@ body {
   margin-left: 64px;
 }
 
-body .test1 {
-  font-weight: 600;
-  font-size: 4em;
+.row {
+  margin: 0 !important;
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -122,11 +127,85 @@ a {
 
 #home {
   min-height: 80vh;
-  font-family: 'Roboto-thin', sans-serif;
+  background: #EA2639;
+  color: #ffffff;
   font-size: 45px;
 }
 
 #home .front-logo {
   padding-top: 20vh;
+}
+
+.about .heading-box {
+  background: #222528;
+  color: #ffffff;
+  font-size: 54px;
+  font-weight: 400;
+  position: relative;
+  top: -48px;
+  text-align: center;
+  padding: 16px 0 16px 0;
+}
+
+.about h2 {
+  margin: 0;
+  font-size: 64px;
+  font-weight: 500;
+}
+
+.about p {
+  font-size: 26px;
+  font-weight: 300;
+  margin: 3em 0;
+}
+
+.about img {
+  -webkit-box-shadow: #222528 -26px -26px;
+          box-shadow: #222528 -26px -26px;
+}
+
+.mission {
+  padding: 2.5em 0;
+}
+
+.mission .heading-box {
+  background: #222528;
+  color: #ffffff;
+  font-size: 54px;
+  font-weight: 400;
+  position: relative;
+  text-align: center;
+  padding: 16px 0 16px 0;
+  margin-bottom: 2em;
+}
+
+.mission h2 {
+  margin: 0;
+  font-size: 54px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.mission p {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 3em 0;
+  text-align: center;
+}
+
+.location {
+  background: #EA2639;
+}
+
+.location .heading-box {
+  background: #222528;
+  color: #ffffff;
+  font-size: 54px;
+  font-weight: 400;
+  position: relative;
+  top: -48px;
+  text-align: center;
+  padding: 16px 0 16px 0;
 }
 /*# sourceMappingURL=main.css.map */
